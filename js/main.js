@@ -19,5 +19,3 @@ $(".navbar .nav-link").click(function () {
     // Ｍenu選單收合起來
     $('.navbar-collapse').collapse('hide');
 })
-
-

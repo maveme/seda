@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="./scss/bootstrap.css">
     <!-- 使用style.css -->
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/addons/p5.sound.min.js"></script>
+    
 </head>
 
 <body>
@@ -42,21 +45,28 @@
             </ul>
         </div>
     </nav>
+
     <!-- navbar end -->
     <!-- header -->
-    <header id="header" class="jumbotron text-end text-white bg-dark">
-        <div class="container">
+     <!-- <div id="sketch-holder">
+     </div> -->
+    <header id="header-container" class="text-end text-white">
+        <div id="header-content" class="container">
             <h1 class="font-weight-bold pt-5 pb-3 header-text">
-                Software Engineering and Digital Art Conservation (SEDA) Workshop
+                Software Engineering and Digital Arts Conservation (SEDA) Workshop
             </h1>
             <h2>March 25, 2026</h2>
             <h3>Amsterdam, The Netherlands</h3>
+            <!-- <div id="script-author">Author: <a href="https://maveme.github.io" target="_blank">Mauricio Verano Merino</a></div> -->
         </div>
     </header>
     <!-- header end -->
     <!-- introSection -->
     <!-- 設定introSection 上下padding為5倍 -->
     <section id="introSection" class="pt-5 pb-5">
+        <div class="container">
+            <hr style="border: 1px solid #ffb0d9;">
+        </div>
         <h2 class="section-title text-center text-dark mb-5">Introduction</h2>
         <div class="container">
             <p>
@@ -95,6 +105,9 @@
     <!-- introSection end -->
     <!-- adendaSection -->
     <section id="agendaSection" class="pt-5 pb-5">
+        <div class="container">
+            <hr style="border: 1px solid #ffb0d9;">
+        </div>
         <h2 class="section-title text-center text-dark mb-5">Agenda</h2>
         <!-- table in the container => table width will not be screen width  -->
         <div class="container">
@@ -174,6 +187,9 @@
     <!-- agendaSection end -->
     <!-- speakerSection -->
     <section id="speakerSection" class="pt-5 pb-5">
+        <div class="container">
+            <hr style="border: 1px solid #ffb0d9;">
+        </div>
         <h2 class="section-title text-center text-dark mb-5">Tentative Speakers</h2>
         <!-- 1st speaker -->
         <div class="row justify-content-center py-5">
@@ -309,6 +325,9 @@
     <!-- speakerSection end -->
     <!-- sponsorSection -->
     <section id="sponsorSection" class="pt-2 pb-5">
+        <div class="container">
+            <hr style="border: 1px solid #ffb0d9;">
+        </div>
         <h2 class="section-title text-center text-dark mb-5">Sponsors</h2>
         <div class="container">
             <!-- 三項排一排 -->
@@ -392,7 +411,7 @@
     <footer>
         <div class="footer-end bg-secondary pt-2 pb-1">
             <div>
-                <p class="text-center text-light">SEDA | 2026 | <a href="">Template</a></p>
+                <p class="text-center text-light">SEDA 2026 | <a href="https://github.com/ashleyfhh/workshop-website">Template</a></p>
             </div>
 
     </footer>
@@ -412,6 +431,7 @@
         crossorigin="anonymous"></script>
     <!-- 連結網頁主程式 -->
     <script src="./js/main.js"></script>
+    <script src="./js/sketch.js"></script>
 </body>
 
 </html>
