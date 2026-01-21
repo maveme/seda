@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SEDA Workshop Website</title>
+    <!-- <link rel="icon shortcut" href="./img/favicon.ico"> -->
+    <!-- 連結Bootstrap.min.css -->
+    <!-- 客製化Bootstrap CSS -->
+    <link rel="stylesheet" href="./scss/bootstrap.css">
+    <!-- 使用style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- 使用Boostrap Navbar -->
+    <!-- 設定Navbar固定在畫面上方 -->
+    <!-- 點擊滾動目標 -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">SEDA</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#introSection">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#agendaSection">Agenda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#speakerSection">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sponsorSection">Sponsors</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- header -->
+    <header id="header" class="jumbotron text-end text-white bg-dark">
+        <div class="container">
+            <h1 class="font-weight-bold pt-5 pb-3 header-text">
+                Software Engineering and Digital Art Conservation (SEDA) Workshop
+            </h1>
+            <h2>March 25, 2026</h2>
+            <h3>Amsterdam, The Netherlands</h3>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- introSection -->
+    <!-- 設定introSection 上下padding為5倍 -->
+    <section id="introSection" class="pt-5 pb-5">
+        <h2 class="section-title text-center text-dark mb-5">Introduction</h2>
+        <div class="container">
+            <p>
+                Digital art builds on top of rich stacks of digital technology. 
+                Blending multiple media such as code, data, signals, and artificial intelligence; 
+                software artists integrate various types of software to draw, animate, control, or synchronize different parts of an artwork. 
+                Software-based art has entered our artistic heritage in the 1960's with the early Experiments in <em>Art and Technology</em> and the computer art of pioneers such as <a href="http://www.veramolnar.com">Vera Molnar</a>. 
+                Since then, it has kept growing up to the most recent NFT collections, immersive works by Refik Anadol or Sasha Stiles' poetry fueled by generative AI.
+            </p>
+            <p>
+                Software and artificial intelligence open fantastic opportunities to amplify formal creativity, letting artists experiment with novel media, and new production techniques at the interface of science, technology and art. 
+                Yet, software artworks are also <em>highly vulnerable</em> . 
+                Rapid software evolution, hardware obsolescence, insufficient documentation, and fragile software supply chains threaten their longevity, reproducibility, and cultural value.
+            </p>
+                
+            <p>This one-day Software Engineering and Digital Art Conservation (SEDA) workshop
+                seeks to convene researchers to share knowledge about their SEDA experiences from the <em>Software Engineering</em> and the <em>Conservation</em> perspectives. 
+                This SEDA workshop will feature researchers and practitioners with interest in the intersection of software engineering and digital art conservation, preservation, and history. 
+                A key goal of this workshop is to foster discussion and facilitate future SEDA collaborations. 
+                As such, ample time will be provided for discussion and brainstorming between participants. A
+                tentative schedule for the workshop appears below.</p>
+            
+                <!-- <p><strong>In-Person event</strong></p> -->
+            <!-- <h5 class="text-secondary mt-5">Sponsors</h5>
+            <ul class="text-secondary">
+                <li style="font-size:medium">National Taiwan University</li>
+                <li style="font-size:medium">University of Arizona</li>
+                <li style="font-size:medium">Indiana University</li>
+            </ul> -->
+            <h5 class="text-secondary mt-4">Workshop Organizers</h5>
+            <ul class="text-secondary">
+                <li style="font-size:medium"><a href="https://maveme.github.io">Mauricio Verano Merino</a>, Vrije Universiteit Amsterdam</li>
+                <li style="font-size:medium"><a href="https://softwarediversity.eu">Benoit Baudry</a>, University of Montreal</li>
+            </ul>
+    </section>
+    <!-- introSection end -->
+    <!-- adendaSection -->
+    <section id="agendaSection" class="pt-5 pb-5">
+        <h2 class="section-title text-center text-dark mb-5">Agenda</h2>
+        <!-- table in the container => table width will not be screen width  -->
+        <div class="container">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="cent">
+                        <!-- 使用 colspan=" 3", 合併表格３格 -->
+                        <th scope="col" colspan="3">Tentative Schedule (All times CET)*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="cent">
+                        <th scope="row">Time</th>
+                        <th>Session</th>
+                        <th>Speaker(s)</th>
+                    </tr>
+                    <tr>
+                        <td scope="row">9:45 – 10:00</td>
+                        <td>Workshop Welcome</td>
+                        <td>Workshop Organizers</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">10:00 AM – 10:30 AM</td>
+                        <td>Conservation  and Preservation </td>
+                        <td>Inge Hinterwaldner</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">10:30 AM – 11:00 AM</td>
+                        <td>Conservation  and Preservation</td>
+                        <td>Yannick Westphal </td>
+                    </tr>
+                    <tr>
+                        <td scope="row">11:00 AM – 11:30 AM</td>
+                        <td>Conservation  and Preservation</td>
+                        <td>Marc Schütze </td>
+                    </tr>
+                    <tr>
+                        <td scope="row">11:30 AM – 12:00 AM</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="cent">
+                        <td scope="row" colspan="3">Lunch (12:30-14:00)</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">14:00 – 14:30 </td>
+                        <td>Software Engineering Methods and Tools</td>
+                        <td>Stefano Zacchiroli</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">14:30 – 15:00 </td>
+                        <td>Software Engineering Methods and Tools</td>
+                        <td>Benoit Baudry</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">15:00 – 15:30  </td>
+                        <td>Software Engineering Methods and Tools</td>
+                        <td>Mauricio Verano Merino</td>
+                    </tr>
+                    <tr class="cent">
+                        <td scope="row" colspan="3">Break (15:30-15:45)</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">15:45 PM – 17:00 PM </td>
+                        <td>Proposal Brainstorming and Writing</td>
+                        <td>All</td>
+                    </tr>
+                    <tr class="cent">
+                        <td scope="row" colspan="3"><strong>Workshop Conclusion</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>* Schedule is subject to change based on the availability of speakers.
+            </p>
+        </div>
+    </section>
+    <!-- agendaSection end -->
+    <!-- speakerSection -->
+    <section id="speakerSection" class="pt-5 pb-5">
+        <h2 class="section-title text-center text-dark mb-5">Tentative Speakers</h2>
+        <!-- 1st speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <!-- <img class="w-75 rounded-circle" src="./img/philip.jpg" alt="user photo"> -->
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+                <a class="name" target="_blank" href="https://www.arch.kit.edu/3117.php"
+                    style="font-size:larger">Inge Hinterwaldner
+                </a>
+                <h5 class="organization">Karlsruhe Institute of Technology</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        <!-- 2nd speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <!-- <img class="w-75 rounded-circle" src="./img/chungshengli.jpeg" alt="user photo"> -->
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+                <a class="name" target="_blank" href=""
+                    <!-- style="font-size:larger">Yannick Westphal
+                </a>
+                <h5 class="organization">Artist and forensic analyst</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        <!-- 3rd speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <!-- <img class="w-75 rounded-circle" src="./img/emily.jpeg" alt="user photo"> -->
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+
+                <a class="name" target="_blank" href=""
+                    style="font-size:larger">Marc Schütze 
+                </a>
+                <h5 class="organization">ZKM</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        <!-- 4th speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <!-- <img class="w-75 rounded-circle" src="./img/hsinchun.jpeg" alt="user photo"> -->
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+
+                <a class="name" target="_blank" href="https://upsilon.cc/~zack/"
+                    style="font-size:larger">Stefano Zacchiroli
+                </a>
+                <h5 class="organization">Full Professor in computer science, Télécom Paris (part of the Polytechnic Institute of Paris)</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        </div>
+        <!-- 5th speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <!-- <img class="w-75 rounded-circle" src="./img/hsinhsichen.jpeg" alt="user photo"> -->
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+
+                <a class="name" target="_blank" href="https://softwarediversity.eu"
+                    style="font-size:larger">Benoit Baudry
+                </a>
+                <h5 class="organization">Full Professor in computer science, Université de Montréal</h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+        <!-- 7th speaker -->
+        <div class="row justify-content-center py-5">
+            <div class="col-sm-2 col-6">
+                <!-- <img class="w-75 rounded-circle" src="./img/cpwei.jpeg" alt="user photo"> -->
+            </div>
+            <div class="col-sm-6 col-8 align-self-center">
+                <a class="name" target="_blank" href="https://maveme.github.io"
+                    style="font-size:larger">Mauricio Verano Merino
+                </a>
+                <h5 class="organization">Assistant Professor in computer science, Vrije Universiteit Amsterdam </h5>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo provident quisquam a
+                    deleniti laborum
+                    omnis dicta aliquam repellat deserunt accusantium. Esse velit atque deleniti. Earum
+                    maxime
+                    necessitatibus veritatis vitae libero eveniet, accusantium culpa voluptas ipsam nisi non
+                    id neque
+                    atque minus qui, natus ducimus dolores est, dolor beatae? Quis esse eius facilis minima
+                    aut cum vero
+                    ex dolore obcaecati sint?</p> -->
+            </div>
+        </div>
+    </section>
+    <!-- speakerSection end -->
+    <!-- sponsorSection -->
+    <section id="sponsorSection" class="pt-2 pb-5">
+        <h2 class="section-title text-center text-dark mb-5">Sponsors</h2>
+        <div class="container">
+            <!-- 三項排一排 -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="intro-box">
+                        <!-- <h5 class="text-secondary">Network Institute</h5> -->
+                        <div class="py-3">
+                            <img style="height: 150px" src="./img/logoNI.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sponsorSection end -->
+
+
+
+    <!-- footer -->
+    <!-- <footer id="footer" class="pt-5 bg-secondary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 footer-list">
+                    <h4>Contact Us</h4>
+                    <a href="mailto:service@brand.com">service@brand.com</a>
+                </div>
+                <div class="col-md-3 col-sm-6 footer-list">
+                    <h5 class="text-uppercase">Company</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Bonus</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 footer-list">
+                    <h5 class="text-uppercase">Product</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Enterprice</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Security</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 footer-list">
+                    <h5 class="text-uppercase">Resource</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Guilde</a>
+                        </li>
+                        <li>
+                            <a href="#">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#">API</a>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+    <footer>
+        <div class="footer-end bg-secondary pt-2 pb-1">
+            <div>
+                <p class="text-center text-light">SEDA | 2026 | <a href="">Template</a></p>
+            </div>
+
+    </footer>
+    <!-- footer end -->
+
+    </div>
+
+    <!-- jquery.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- popper.min.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap.min.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!-- 連結網頁主程式 -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

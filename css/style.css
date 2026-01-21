@@ -1,0 +1,94 @@
+/*=============================================
+=                  General                    =
+=============================================*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+/*=============================================
+=                  Navbar                     =
+=============================================*/
+
+.navbar {
+    box-shadow: 0 3px 18px rgba(0, 0, 0, .11);
+}
+
+/*=============================================
+=                  Header                     =
+=============================================*/
+
+#header {
+    /* 替網頁最上面的區塊加入背景圖片 */
+    border-radius: 0px;
+    margin-bottom: 0px;
+    background-image: url("../img/header.png");
+    background-size: cover;
+    background-position: center bottom;
+    height: 550px;
+    /* 讓標題文字垂直置中 */
+    display: flex;
+    align-items: center;
+}
+
+
+/*=============================================
+=                  Agenda                     =
+=============================================*/
+/* 選擇文字要置中的rows */
+.cent {
+    text-align: center;
+}
+
+/* 調整欄寬 */
+thead th:first-child,
+tbody td:first-child {
+    width: 12em;
+}
+
+thead th:last-child,
+tbody td:last-child {
+    width: 45%;
+}
+
+
+
+/*=============================================
+=                  Speaker                    =
+=============================================*/
+.name {
+    color: rgb(43, 41, 130);
+    margin-top: 15px;
+}
+
+.organization {
+    margin-bottom: 15px;
+}
+
+
+/*=============================================
+=                  Sponsor                   =
+=============================================*/
+.intro-box {
+    border-radius: 15px;
+    margin-bottom: 15px;
+    transition: all .5s ease-out;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.intro-box:hover {
+    background: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
+}
