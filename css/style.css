@@ -69,7 +69,7 @@ tbody td:last-child {
 =                  Speaker                    =
 =============================================*/
 .name {
-    color: rgb(43, 41, 130);
+    /* color: rgb(43, 41, 130); */
     margin-top: 15px;
 }
 
