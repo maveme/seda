@@ -36,7 +36,7 @@ button:focus {
     /* background-image: url("../img/header.png"); */
     /* background-size: cover; */
     /* background-position: center bottom; */
-    height: 250px;
+    max-height: 250px;
     display: flex;
     align-items: center;
     /* background: #000; */
